@@ -38,13 +38,10 @@ logo.Parent = ScreenGui
 logo.BackgroundTransparency = 1
 logo.Size = UDim2.new(0, 100, 0, 100)
 logo.Position = UDim2.new(0, 10, 0, 10)
-logo.Image = "https://raw.githubusercontent.com/grayiceblox/GrayIceBlox/main/logo.png" -- hoặc đổi thành rbxassetid://ID nếu up lên Roblox
-
--- Tải script chính từ GitHub (newredz đổi thành ble)
+logo.Image = "https://raw.githubusercontent.com/grayiceblox/GrayIceBlox/main/logo.png" --
 local url = "https://raw.githubusercontent.com/newredz/BloxFruits/main/Source.luau"
 local rawScript = game:HttpGet(url)
-rawScript = rawScript:gsub("red", "ble") -- Đổi tất cả từ 'red' thành 'ble'
-
+rawScript = rawScript:gsub("red", "blue") 
 -- Load script chính
 local func = loadstring(rawScript)
 if func then
