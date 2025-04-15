@@ -23,3 +23,4 @@ local window = library:CreateWindow({
 
 -- Load script chính
 loadstring(game:HttpGet("https://raw.githubusercontent.com/newblez/BloxFruits/refs/heads/main/Modules/Main.lua"))(Settings)
+https://raw.githubusercontent.com/grayiceblox/GrayIceBlox/main/assets/logo.png
